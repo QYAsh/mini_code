@@ -7,7 +7,6 @@ special_word_dict = {
     12:"twelve",
     13:"thirteen",
     15:"fifteen",
-    16:"sixteen",
     18:"eighteen"
 }
 
