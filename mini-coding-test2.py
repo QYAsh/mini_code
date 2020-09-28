@@ -21,7 +21,7 @@ def convert_digit_to_word(digit):
     
     if digit in special_word_dict.keys():
         word = special_word_dict[digit]
-    elif ten_place == 0:
+    elif digit < 10:
         word = unit_word_list[unit_place]
     elif digit < 20:
         word = unit_word_list[unit_place] + "teen"
